@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <title>Nosotros</title>
-    <link rel="stylesheet" href="../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body  class="grid-nosotros">
@@ -72,8 +73,8 @@
 
         <div class="box">
             <div class="div-miembros">
-                <div class="miembro">
-                    <img src="../img/invitado1.jpg" alt="">
+                <div class="miembro" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="../img/invitado1.jpg" alt="federico wagener">
                     <div class="redes-sociales">
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -87,8 +88,8 @@
 
     
             <div class="div-miembros">
-                <div class="miembro">
-                    <img src="../img/invitado2.jpg" alt="">
+                <div class="miembro" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                    <img src="../img/invitado2.jpg" alt="camila ramos dietmair">
                     <div class="redes-sociales">
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
@@ -130,6 +131,11 @@
             <p>Copyright 2022 EstudioRW © - Luciano Festa</p>
         </div>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

@@ -92,7 +92,6 @@ h1{
 }
 
 
-
 /*MENU DE NAVEGACION*/
 
  nav{
@@ -100,52 +99,42 @@ h1{
     width: 100%;
     background-color: #f7f7f7;
     text-transform: uppercase;
+    padding: 5px;
 }
-/*
-.enlace{
-    position: absolute;                 Nav con 80px, con 20px arriba y abajo + 40px del tamaño logo, suma 80px y queda centrado
-}
-
-.logo{
-    align-items: center;
-    height: 58px;
-    width: 253px;
-    margin: 10px;
-}
-
-nav ul{
-    float: right;
-}
-
-nav ul li{
-    display: inline-block;
-    line-height: 80px;                Misma altura que el nav, quda centrado
-    margin: 0 10px;
-} */
-
-/* nav ul li a{
-    color: #ec1780;
-    border-radius: 5px;
-    padding: 13px 13px;
-    font-weight: 900;
-}
-
-nav li a:hover{
-    background-color: #0988a5;
-    color: white;
-    padding: 13px 13px;
-    transition: all 0.3s ease-in;
-} */
-
-/*MENU GRID*/
-
 
 .navbar{
     grid-area: nav;
     background-color: #f7f7f7;
-    display: grid;
-    grid-template-columns: repeat(8, 1fr);
     align-items: center;
+    height: 100%;
+}
+
+.navbar-nav .nav-link {
+    margin: 10px;
+}
+
+.navbar-toggler {
+    background-color: #0988a5ad;
+    transition: all .5s ease-in-out;
+}
+
+.navbar-toggler:hover{
+    background-color: #06657a;
+}
+
+.navbar-nav a{
+    color: #ec1780 !important; 
+    border-radius: 5px;
+    padding: 13px 13px;
+    font-weight: 900;
+    margin-right: 30px;
+}
+
+.navbar-nav a:hover{
+    background-color: #0988a5;
+    color: white !important;
+    padding: 13px 13px;
+    transition: all 0.3s ease-in;
 }
 
 .logo{
@@ -155,7 +144,7 @@ nav li a:hover{
     padding: 0 10px;
 }
 
-.menu{
+/* .menu{
     grid-column: 4 / 9;
     display: flex;
     justify-content: space-around;
@@ -182,7 +171,7 @@ nav li a:hover{
 
 .menu-bar{
     display: none;
-}
+} */
 
 
 
@@ -387,79 +376,29 @@ footer{
     padding-top: 50px;
 }
 
-.footer{
-    display: flex;
-    justify-content: space-around;
-    width: 100%;
-    margin-top: 50px;
-    background-color: rgb(128, 128, 128, 0.5);
-}
-
-.logo-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.footer img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 58px;
-    width: 253px;
-    margin: 10px;
-}
-
-.footer h2{
-    color: #0988a5;
-    text-transform: uppercase;
-    padding-bottom: 5px;
-    padding-top: 20px;
-}
-
-.footer ul li{
-    text-transform: uppercase;
-    color: black;
-    font-weight: 600;
-    list-style-type: none;
-}
-
-.copy{
-    background-color: rgb(128, 128, 128, 0.5);
-    font-weight: bold;
-    text-align: center;
-    font-size: 12px;
-    padding-top: 20px;
-}
-
-.redes{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-}
-
-
-.redes li{
-    margin: 15px 0px;
-}
-
-.redes li i{
-    size: 10px;
-}
-
-
-/* FOOTER GRID */
-
 .footer-grid{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(11,1fr);
     grid-template-rows: repeat(1,1fr) ;
-    background-color: rgb(128, 128, 128, 0.5);
+    background-color: #cecece;
     align-items: center;
     margin-top: 50px;
     justify-content: space-around;
+}
+
+.footer-grid ul {
+    padding: 0;
+}
+
+.footer-grid a{
+    text-decoration: none;
+    color:#c01169;
+    transition: all .5s ease;
+}
+
+.footer-grid a:hover{
+    color:#0988a5;
 }
 
 .logo-footerGrid{
@@ -492,6 +431,18 @@ footer{
     text-transform: uppercase;
     padding-bottom: 5px;
     padding-top: 20px;
+}
+
+.copy{
+    background-color: #cecece;
+    font-weight: bold;
+    text-align: center;
+    font-size: 12px;
+    padding-top: 20px;
+}
+
+.copy p{
+    margin-bottom: 0;
 }
 
 
@@ -1023,9 +974,9 @@ footer{
 
 @media (max-width: 1100px){
 
-    .menu{
+    /* .menu{
         grid-column: 3 / 8;
-    }
+    } */
 
     .section-dividida{
     align-items: center;
@@ -1067,9 +1018,19 @@ footer{
 
 }
 
+@media (min-width: 992px){
+
+    .navbar-expand-lg .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }  
+
+}
+
 @media (max-width: 870px){
 
-    .menu{
+    /* .menu{
         display: none;
     }
 
@@ -1079,7 +1040,7 @@ footer{
         font-size: 40px;
         color: #0988a5;
         margin-right: 20px;
-    }
+    } */
     .div-blog{
         display: flex;
         flex-wrap: wrap;

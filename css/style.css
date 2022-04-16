@@ -178,6 +178,51 @@ h1{
 /*BANNER*/
 
 .banner{
+    height: 100vh;
+    overflow: hidden;
+}
+
+.texto-banner{
+    background-color: #444444e7;
+    border-radius: 20px;
+}
+
+.texto-banner h5{
+    color:#f7f7f7;
+    font-size: 30px;
+}
+
+.carrousel1{
+    height: 100vh;
+    background-image: url(../img/carrousel3.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.carrousel2{
+    height: 100vh;
+    background-image: url(../img/carrousel2.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.carrousel3{
+    height: 100vh;
+    background-image: url(../img/carrousel1.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.banner{
     position: relative;
     background: url(../img/banner.jpg);
     height: 100vh;
@@ -576,7 +621,6 @@ footer{
     line-height: 30px;
     filter: grayscale(1);
     color:rgb(63, 63, 63, 1);
-
 }
 
 .servicio-texto{
@@ -647,13 +691,13 @@ footer{
 }
 
 .div-servicio:hover .servicio-texto{
-    height: 30%;
+    height: 35%;
     visibility: visible;
     opacity: 1;
 }
 
 .web:hover .servicio-texto{
-    height: 35%;
+    height: 45%;
 }
 
 .div-servicio:hover{
@@ -665,7 +709,9 @@ footer{
 .div-servicio h3{
     font-size: 25px;
     color:#ec1780;
+    font-weight: bold;
 }
+
 
 
 /* SECCION CLIENTES */
@@ -1041,6 +1087,23 @@ footer{
         color: #0988a5;
         margin-right: 20px;
     } */
+
+
+    h1{
+        font-size: 30px;
+    }
+
+    .rw-texto{
+        font-size: 0px;
+    }
+
+    .carousel-item h5{
+        font-size: 20px;
+    }
+    .carousel-item p{
+        font-size: 15px;
+    }
+
     .div-blog{
         display: flex;
         flex-wrap: wrap;

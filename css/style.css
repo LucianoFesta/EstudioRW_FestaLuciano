@@ -138,7 +138,7 @@ h1{
 }
 
 .logo{
-    width: 190px;
+    width: 230px;
     height: 50px;
     grid-column: 1 / 2;
     padding: 0 10px;
@@ -411,6 +411,34 @@ h1{
 .servicio:hover p{
     bottom: -50px;
     opacity: 0;
+}
+
+/* BOTON FLOTANTE */
+
+.contenedor-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px;
+    border-radius: 50%;
+    border: 2px solid #035e729c;
+    padding: 10px 15px;
+    background-color: #0988a59c;
+    transition: all 0.3s ease-in-out;
+}
+
+.contenedor-btn:hover{
+    border: 2px solid #c01169 ;
+    border-color: #c01169b2;
+    background-color: #f7f7f7b6;
+}
+
+.contenedor-btn i{
+    color: black;
+}
+
+.contenedor-btn i:hover{
+    color: #035e72;
 }
 
 

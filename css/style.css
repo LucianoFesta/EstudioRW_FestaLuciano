@@ -1002,6 +1002,8 @@ footer{
 }
 
 
+
+
 @media (max-width: 1280px){
 
     .text{
@@ -1055,10 +1057,6 @@ footer{
 
 @media (max-width: 1100px){
 
-    /* .menu{
-        grid-column: 3 / 8;
-    } */
-
     .section-dividida{
     align-items: center;
     }
@@ -1110,19 +1108,6 @@ footer{
 }
 
 @media (max-width: 870px){
-
-    /* .menu{
-        display: none;
-    }
-
-    .menu-bar{
-        display: block;
-        grid-column: 8/9;
-        font-size: 40px;
-        color: #0988a5;
-        margin-right: 20px;
-    } */
-
 
     h1{
         font-size: 30px;

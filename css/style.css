@@ -1,4 +1,3 @@
-
 *{
     padding: 0;
     margin: 0;
@@ -139,7 +138,6 @@ nav li a:hover{
 
 /*MENU GRID*/
 
-
 .navbar{
     grid-area: nav;
     background-color: #f7f7f7;
@@ -220,16 +218,6 @@ nav li a:hover{
 .texto p{
     width: 50%;
     margin: auto;
-}
-
-.texto h1{
-    margin: 30px 0px 0px 0px;
-    padding: 20px 20px 0 20px;
-}
-
-.diseño{
-    text-align: end;
-    padding-right: 35px;
 }
 
 .rw-texto{
@@ -701,10 +689,6 @@ footer{
     opacity: 1;
 }
 
-.web:hover .servicio-texto{
-    height: 35%;
-}
-
 .div-servicio:hover{
     transform: scale(1.1);
     transition: all 0.4s ease-in-out;
@@ -972,35 +956,12 @@ footer{
 
 @media (max-width: 1280px){
 
-    .text{
-        font-size: 12px;
-        width: 100%;
-    }
-
     .seccion-resumen{
         height: 100%;
     }
     .resumen{
         flex-direction: column;
         flex-wrap: wrap;
-    }
-
-    .resumen{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .item-resumen .item{
-        font-size: 10px;
-    }
-
-    .item-resumen .numero-resumen{
-        font-size: 50px;
-        padding: 10px 0px;
-    }
-
-    .item span{
-        font-size: 15px;
     }
 
     .lista-servicios{
@@ -1015,38 +976,12 @@ footer{
         margin: 50px;
         row-gap: 50px;
     }
-
-    .web:hover .servicio-texto{
-        height: 35%;
-    }
 }
 
 @media (max-width: 1100px){
 
     .menu{
         grid-column: 3 / 8;
-    }
-
-    .section-dividida{
-    align-items: center;
-    }
-
-    .resumen{
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .item-resumen .item{
-        font-size: 10px;
-    }
-
-    .item-resumen .numero-resumen{
-        font-size: 50px;
-        padding: 10px 0px;
-    }
-
-    .item span{
-        font-size: 15px;
     }
 
     .div-blog{
@@ -1059,10 +994,6 @@ footer{
 
     .box{
         flex-direction: column;
-    }
-
-    .web:hover .servicio-texto{
-        height: 35%;
     }
 
 }
@@ -1087,16 +1018,11 @@ footer{
     }
 
     .section-dividida{
-        display: flex;
         flex-direction: column;
-        align-items: center;
     }
 
     .section-dividida .imagen{
-        width: 80%;
-        padding-top: 50px;
-        height: 350px;
-
+        width: 100%;
     }
 
     .section-dividida .texto{
@@ -1125,21 +1051,8 @@ footer{
 
     }
     .resumen{
-        flex-direction: row;
+        flex-direction: column;
         flex-wrap: wrap;
-    }
-
-    .item-resumen .item{
-        font-size: 10px;
-    }
-
-    .item-resumen .numero-resumen{
-        font-size: 50px;
-        padding: 10px 0px;
-    }
-
-    .item span{
-        font-size: 15px;
     }
 
     .lista-servicios{
@@ -1159,22 +1072,9 @@ footer{
         flex-direction: column;
     }
 
-    .texto-presentacion{
-        font-size: 15px;
-        line-height: 30px;
-    }
-
-    .web:hover .servicio-texto{
-        height: 35%;
-    }
-
 }
 
 @media only screen and (max-width: 755px){
-
-    .contenedor{
-        font-size: 30px;
-    }
 
     .section-dividida{
         flex-direction: column;
@@ -1182,7 +1082,6 @@ footer{
 
     .section-dividida .imagen{
         width: 100%;
-        height: 300px;
     }
 
     .section-dividida .texto{
@@ -1190,7 +1089,7 @@ footer{
         text-align: justify;
         grid-column: 2 / 10;
     }
-    
+
     .texto h1{
         padding-bottom: 0;
         margin-bottom: 5px;
@@ -1200,33 +1099,6 @@ footer{
         width: 100%;
         text-align: center;
         margin-bottom: 5px;
-    }
-
-    .seccion-resumen{
-        height: 100%;
-
-    }
-
-    .resumen{
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
-
-    .servicio{
-        height: 200px;
-    }
-
-    .item-resumen .item{
-        font-size: 10px;
-    }
-
-    .item-resumen .numero-resumen{
-        font-size: 50px;
-        padding: 10px 0px;
-    }
-
-    .item span{
-        font-size: 15px;
     }
 
     .diseño{
@@ -1255,48 +1127,18 @@ footer{
         padding-top: 20px;
     }
 
-    .contactos-grid{
-        font-size: 15px;
+    .seccion-resumen{
+        height: 100%;
+
+    }
+    .resumen{
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
-    .redes-grid{
-        font-size: 15px;
-    }
-
-    .texto-presentacion{
-        font-size: 15px;
-        line-height: 30px;
-    }
-
-    .div-servicio{
-        width: 80%;
-        height: 300px;
-    }
-
-    .web:hover .servicio-texto{
-        height: 40%;
-    }
-
-    .rotulacion:hover .servicio-texto{
-        height: 40%;
+    .servicio{
+        height: 200px;
     }
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

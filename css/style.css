@@ -1026,7 +1026,7 @@ footer{
 
 
 
-@media (max-width: 1280px){
+@media (max-width: 1200px){
 
     .seccion-resumen{
         height: 100%;
@@ -1080,7 +1080,7 @@ footer{
 
 }
 
-@media (max-width: 870px){
+@media (max-width: 768px){
 
     h1{
         font-size: 30px;
@@ -1158,9 +1158,32 @@ footer{
         flex-direction: column;
     }
 
+    .footer-grid{
+        display: flex;
+        flex-direction: column;       
+    }
+
+    .footer{
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+
+    .logo-footerGrid{
+        order: 2;
+    }
+
+    .redes-grid{
+        order: 3;
+    }
+
+    .footer-grid img{
+        padding-top: 20px;
+    }
+
+
 }
 
-@media only screen and (max-width: 755px){
+@media only screen and (max-width: 600px){
 
     .section-dividida{
         flex-direction: column;
@@ -1227,4 +1250,3 @@ footer{
     }
 
 }
-

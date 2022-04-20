@@ -335,6 +335,7 @@ nav li a:hover{
     grid-area: dividida;
     display: flex;
     margin: 30px;
+    align-items: center;
 }
 
 
@@ -391,19 +392,18 @@ nav li a:hover{
     grid-area: servicios;
     width: 100%;
     text-align: center;
-    padding: 50px;
 }
 
 .lista-servicios{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .servicio{
     position: relative;
     overflow: hidden;
-    margin-bottom: 30px;
+    margin: 30px 5px;
     height: 300px;
 }
 
@@ -556,6 +556,8 @@ footer{
     width: 95%;
     padding: 20px;
     margin-top: 100px;
+    border-top: 3px solid #0988a5;
+    border-bottom: 3px solid #0988a5;
 }
 
 .texto-presentacion{
@@ -567,7 +569,7 @@ footer{
 }
 
 .texto-presentacion p{
-    margin-bottom: 70px;
+    margin: 70px 0px;
 }
 
 /*MIEMBROS DEL EQUIPO*/
@@ -1041,6 +1043,10 @@ footer{
         align-items: center;
     }
 
+    .section-dividida{
+        align-items: center;
+    }
+
     .div-blog{
         display: flex;
         flex-wrap: wrap;
@@ -1054,6 +1060,10 @@ footer{
 
     .menu{
         grid-column: 3 / 8;
+    }
+
+    .section-dividida{
+        align-items: center;
     }
 
     .div-blog{
@@ -1134,8 +1144,17 @@ footer{
 
     .seccion-resumen{
         height: 100%;
-
+        font-size: 10px;
     }
+
+    .numero-resumen{
+        font-size: 50px;
+    }
+
+    .numero-resumen span{
+        font-size: 50px;
+    }
+
     .resumen{
         flex-direction: column;
         flex-wrap: wrap;
@@ -1144,6 +1163,11 @@ footer{
     .lista-servicios{
         flex-direction: column;
         justify-content: center;
+    }
+
+    .servicio{
+        max-width: 85%;
+        height: 260px;
     }
 
     .div-blog{
@@ -1180,6 +1204,10 @@ footer{
         padding-top: 20px;
     }
 
+    .texto-presentacion{
+        font-size: 15px;
+    }
+
 
 }
 
@@ -1208,6 +1236,19 @@ footer{
         width: 100%;
         text-align: center;
         margin-bottom: 5px;
+    }
+
+    .seccion-resumen{
+        height: 100%;
+        font-size: 10px;
+    }
+
+    .numero-resumen{
+        font-size: 50px;
+    }
+
+    .numero-resumen span{
+        font-size: 50px;
     }
 
     .diseño{
@@ -1247,6 +1288,10 @@ footer{
 
     .servicio{
         height: 200px;
+    }
+
+    .texto-presentacion{
+        font-size: 15px;
     }
 
 }

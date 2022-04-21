@@ -228,6 +228,10 @@ nav li a:hover{
     font-size: 30px;
 }
 
+.carousel-inner{
+    max-height: 600px;
+}
+
 .carrousel1{
     height: 100vh;
     background-image: url(../img/carrousel3.png);
@@ -257,32 +261,6 @@ nav li a:hover{
     background-attachment: fixed;
     background-position: center center;
 }
-
-.banner{
-    position: relative;
-    background: url(../img/banner.jpg);
-    height: 100vh;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.contenedor{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: rgb(61, 61, 61);
-    border-radius: 10px;
-    font-weight: 700;
-    font-size: 40px;
-    padding: 60px 30px;
-    background: rgba(134, 134, 134, 0.5) ;
-}
-
 
 
 /*SECTION DIVIDIDA*/

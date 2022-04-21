@@ -450,7 +450,6 @@ nav li a:hover{
 
 footer{
     grid-area: footer;
-    padding-top: 50px;
 }
 
 .footer-grid{
@@ -951,79 +950,90 @@ footer{
 
 .blog1{
     background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/community_blog.png);  /*FORMA DE OSCURECER UN BACKGROUN*/
-    grid-column: 2/5;
+    /* grid-column: 2/5;
     grid-row: 1/4;
-    height: 300px;
+    height: 300px; */
 }
 
 .blog2{
     background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/SEO_blog.png);
-    grid-column: 6/9;
+    /* grid-column: 6/9;
     grid-row: 1/4;
-    width: 550px;
+    width: 550px; */
 }
 
 .blog3{
     background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/diseño_blog.png);
-    grid-column: 2/5;
+    /* grid-column: 2/5;
     grid-row: 3/7;
     height: 350px;
-    margin-top: 90px;
+    margin-top: 90px; */
 }
 
 .blog4{
     background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/email_blog.png);
-    grid-column: 6 / 9;
+    /* grid-column: 6 / 9;
     grid-row: 4 / 7;
-    height: 280px;
+    height: 280px; */
 }
 
 .blog5{
     background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/tienda_blog.png);
-    grid-row: 7 / 10;
+    /* grid-row: 7 / 10;
     grid-column: 2 / 7;
     width: 650px;
-    height: 450px;
+    height: 450px; */
 }
 
 .blog6{
     background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/programador_blog.png);
-    grid-row: 6 / 10;
+    /* grid-row: 6 / 10;
     grid-column: 7 / 10;
     width: 400px;
-    margin-top: 25px;
+    margin-top: 25px; */
 }
 
 .blog7{
     background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/ux_blog.png);
-    grid-row: 9 / 11;
+    /* grid-row: 9 / 11;
     grid-column: 7 / 10;
     margin-top: 35px;
     width: 420px;
-    height: 350px;
+    height: 350px; */
 }
 
 
 
 
-@media (max-width: 1200px){
+@media only screen and (max-width: 1250px){
+
 
     .seccion-resumen{
         height: 100%;
     }
     .resumen{
-        flex-direction: column;
+        flex-direction: row;
         flex-wrap: wrap;
     }
 
     .lista-servicios{
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
     .section-dividida{
         align-items: center;
     }
+
+    .texto h1{
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .diseño{
+        text-align: right;
+    }
+    
 
     .div-blog{
         display: flex;
@@ -1034,22 +1044,58 @@ footer{
     }
 }
 
-@media (max-width: 1100px){
+@media only screen and (max-width: 992px){
 
-    .menu{
-        grid-column: 3 / 8;
-    }
-
-    .section-dividida{
+    .navbar-collapse {
+        flex-basis: 100%;
+        /* flex-grow: 1; */
         align-items: center;
     }
 
-    .div-blog{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        margin: 50px;
-        row-gap: 50px;
+
+    .texto h1{
+        margin: 0;
+        padding-bottom: 0;
+    }
+
+    .texto .diseño{
+        text-align: right;
+    }
+
+    .texto .text{
+        width: 100%;
+        padding: 0 30px 0 5px;
+        margin: 0;
+        text-align:justify;
+    }
+
+    .resumen{
+        flex-direction: row;
+    }
+
+    .item-resumen{
+        padding: 40px 50px;
+    }
+
+    .seccion-resumen{
+        height: 100%;
+        font-size: 10px;
+    }
+
+    .item i{
+        font-size: 80px;
+    }
+
+    .numero-resumen{
+        font-size: 40px;
+    }
+
+    .item span{
+        font-size: 15px;
+    }
+
+    .diseño{
+        text-align: center;
     }
 
     .box{
@@ -1058,24 +1104,34 @@ footer{
 
 }
 
-@media (min-width: 992px){
+@media only screen and (max-width: 768px){
 
-    .navbar-expand-lg .navbar-collapse {
-        display: flex!important;
-        flex-basis: auto;
-        justify-content: flex-end;
-    }  
+    .navbar-collapse {
+        flex-basis: 100%;
+        /* flex-grow: 1; */
+        align-items: center;
+    }
 
-}
+    .contenedor-btn{
+        right: 50px;
+    }
 
-@media (max-width: 768px){
+    .carousel-item{
+        height: 80vh;
+    }
+
+    .section-dividida .imagen{
+        width: 80% !important;
+        height: 250px;
+        margin-top: 20px;
+    }
 
     h1{
         font-size: 30px;
     }
 
     .rw-texto{
-        font-size: 0px;
+        font-size: 30px;
     }
 
     .carousel-item h5{
@@ -1093,6 +1149,10 @@ footer{
 
     .section-dividida{
         flex-direction: column;
+    }
+
+    .diseño{
+        text-align: center;
     }
 
     .section-dividida .imagen{
@@ -1147,6 +1207,12 @@ footer{
         max-width: 85%;
         height: 260px;
     }
+    
+
+    .item-blog{
+        height: 300px;
+        width: 90%;
+    }
 
     .div-blog{
         display: flex;
@@ -1186,33 +1252,51 @@ footer{
         font-size: 15px;
     }
 
+    .form-contacto {
+        padding: 15px 5px 15px 5px;
+    }
+
+    .campo__input{
+        width: 100%;
+    }
+
+    .campo__label{
+        font-size: 15px;
+    }
 
 }
 
 @media only screen and (max-width: 600px){
 
+    .logo {
+        width: 190px;
+        height: 40px;
+    }
+
+    .carousel-item{
+        height: 50vh;
+    }
+
     .section-dividida{
         flex-direction: column;
     }
 
-    .section-dividida .imagen{
-        width: 100%;
+    .texto .diseño {
+        text-align: center;
     }
 
-    .section-dividida .texto{
+    .texto-texto{
+        font-size: 12px;
+        padding-bottom: 5px;
+    }
+
+    .section-dividida .imagen{
         width: 100%;
-        text-align: justify;
-        grid-column: 2 / 10;
+        height: 150px;
     }
 
     .texto h1{
         padding-bottom: 0;
-        margin-bottom: 5px;
-    }
-    
-    .texto p{
-        width: 100%;
-        text-align: center;
         margin-bottom: 5px;
     }
 
@@ -1221,12 +1305,16 @@ footer{
         font-size: 10px;
     }
 
-    .numero-resumen{
-        font-size: 50px;
+    .item i{
+        font-size: 80px;
     }
 
-    .numero-resumen span{
-        font-size: 50px;
+    .numero-resumen{
+        font-size: 40px;
+    }
+
+    .item span{
+        font-size: 15px;
     }
 
     .diseño{
@@ -1240,7 +1328,7 @@ footer{
 
     .footer{
         margin-top: 0px;
-        padding-top: 0px;
+        padding-top: 0px !important;
     }
 
     .logo-footerGrid{
@@ -1265,10 +1353,35 @@ footer{
     }
 
     .servicio{
-        height: 200px;
+        height: 170px;
     }
 
     .texto-presentacion{
+        font-size: 15px;
+        width: 95%;
+    }
+
+    .miembros, .box{
+        width: 100%;
+    }
+
+    .div-miembros img{
+        width: 100%;
+    }
+
+    .item-blog {
+        height: auto;
+    }
+
+    .form-contacto {
+        padding: 15px 5px 15px 5px;
+    }
+
+    .campo__input{
+        width: 100%;
+    }
+
+    .campo__label{
         font-size: 15px;
     }
 

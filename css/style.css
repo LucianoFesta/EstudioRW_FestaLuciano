@@ -233,7 +233,7 @@ nav li a:hover{
 }
 
 .carrousel1{
-    height: 100vh;
+    height: 80vh;
     background-image: url(../img/carrousel3.png);
     overflow: hidden;
     background-repeat: no-repeat;
@@ -243,7 +243,7 @@ nav li a:hover{
 }
 
 .carrousel2{
-    height: 100vh;
+    height: 80vh;
     background-image: url(../img/carrousel2.png);
     overflow: hidden;
     background-repeat: no-repeat;
@@ -253,7 +253,7 @@ nav li a:hover{
 }
 
 .carrousel3{
-    height: 100vh;
+    height: 80vh;
     background-image: url(../img/carrousel1.png);
     overflow: hidden;
     background-repeat: no-repeat;

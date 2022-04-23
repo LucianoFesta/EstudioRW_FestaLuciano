@@ -755,10 +755,6 @@ footer{
 
 .clientes-div{
     width: 100%;
-}
-
-.clientes-div{
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -1261,9 +1257,14 @@ footer{
         font-size: 15px;
     }
 
-    .clientes-div figure{
-        width: 100%;
+    figure img{
+        width: 430px;
     }
+
+    .div-clientes figure{
+        margin-bottom: 0;
+    }
+
 
 }
 
@@ -1396,9 +1397,12 @@ footer{
         font-size: 15px;
     }
 
-    .clientes-div figure{
-        width: 100%;
+    figure img{
+        width: 430px;
     }
 
+    .div-clientes figure{
+        margin-bottom: 0;
+    }
 
 }

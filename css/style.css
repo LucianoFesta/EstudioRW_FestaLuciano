@@ -1193,11 +1193,16 @@ footer{
     .lista-servicios{
         flex-direction: column;
         justify-content: center;
+        align-content: space-around;
     }
 
     .servicio{
         max-width: 85%;
         height: 260px;
+    }
+
+    .servicio img{
+        height: 100%;
     }
     
 
@@ -1254,6 +1259,10 @@ footer{
 
     .campo__label{
         font-size: 15px;
+    }
+
+    .clientes-div figure{
+        width: 100%;
     }
 
 }
@@ -1348,6 +1357,16 @@ footer{
         height: 170px;
     }
 
+    .servicio img{
+        height: 100%;
+    }
+
+    .lista-servicios{
+        flex-direction: column;
+        justify-content: center;
+        align-content: space-around;
+    }
+
     .texto-presentacion{
         font-size: 15px;
         width: 95%;
@@ -1376,5 +1395,10 @@ footer{
     .campo__label{
         font-size: 15px;
     }
+
+    .clientes-div figure{
+        width: 100%;
+    }
+
 
 }

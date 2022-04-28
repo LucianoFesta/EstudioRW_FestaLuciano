@@ -1,0 +1,124 @@
+@import "_variables.scss";
+
+/* NOSOTROS */
+
+/*PRESENTACION*/
+
+.presentacion{
+    width: 95%;
+    padding: 20px;
+    margin-top: 100px;
+    border-top: 3px solid $colorAzul;
+    border-bottom: 3px solid $colorAzul;
+
+    .texto-presentacion{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        text-transform: uppercase;
+        p{
+            margin: 70px 0px;
+        }
+    }
+}
+
+/*MIEMBROS DEL EQUIPO*/
+
+.miembros{
+    max-width: 1100px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    color: #505050;
+    line-height: 1.7;
+
+    .box{
+        display: flex;
+
+        h4{
+            transition: .5s linear;
+        }
+
+        .div-miembros{
+            width: 100%;
+            margin-bottom: 10px;
+            position: relative;
+            padding: 30px;
+            flex-wrap: wrap-reverse;
+            &:hover .redes-sociales{
+                opacity: 1;
+                visibility: visible;
+                height: 100%;                          /*HOVER SALIENDO DESDE ABAJO*/                          
+            }
+
+            img{
+                border-radius: 50%;
+                object-fit: cover;      /*LAS IMAGENES NO SE VEN FORZADAS*/
+            }
+
+            .miembro{
+                width: 100%;
+                &:hover .miembro-nombre h4{
+                    color: $colorAzul;
+                        text-shadow: 0 0 10px $colorAzul,
+                        0 0 20px $colorAzul,
+                        0 0 40px $colorAzul  ; /*Sombra horizontal, vertical, blur y color*/ 
+                }
+                .miembro-nombre{
+                    margin-top: 20px;
+                }
+            }
+
+            .redes-sociales{
+                width: 100%;
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                background-color: rgba(247, 247, 247, 0.6);
+                color:rgba(236, 23, 128, 0.3);
+                height: 0%;                           /*PARA APLICAR EL HOVER QUE SALGA DESDE ABAJO*/
+                line-height: 280px;
+                transition: all 500ms ease;
+                opacity: 0;                           /*TODO LO SOLIDO PASA A SER TRANSPARENTE*/
+                visibility: hidden;                   /*ICONOS DE REDES OCULTOS*/
+
+                i{
+                    padding: 10px;
+                    font-size: 25px;
+                    color: rgba(236, 23, 128, 0.7);
+                    transition: .5s ease-in-out;
+                    &:hover{
+                        color: #0988a5;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+.box 
+
+.box:hover h4{
+    color: rgb(9, 136, 165);
+    text-shadow: 0 0 2px rgb(9, 136, 165),
+    0 0 4px rgb(9, 136, 165),
+    0 0 8px rgb(9, 136, 165);
+}

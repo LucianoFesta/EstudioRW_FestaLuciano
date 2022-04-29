@@ -1,0 +1,97 @@
+@import "_variables.scss";
+
+/* BLOG */
+
+.section-blog{
+    max-width: 100%;
+    height: 100%;
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+
+    .div-blog{
+        max-width: 100%;
+
+        .item-blog{
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            padding: 20px;  
+            background-size: cover;
+            width: 500px;
+            height: 400px;
+            border-radius: 10px;
+            line-height: 20px;
+            margin: 10px;
+            color: $colorFondo;
+            transition: all 0.5s ease-in-out;
+            &:hover{
+                box-shadow: 10px 10px 20px rgba(1, 1, 1, 0.8);
+                transform: scale(1.1) !important;
+                cursor: pointer; 
+            }
+
+            button{
+                width: 100px;
+                padding: 5px;
+                margin-top: 10px;
+                color: $colorAzul;
+                border: 1px solid rgb(207, 207, 207);
+                border-radius: 20%;
+                background: none;
+                font-weight: 900;
+                &:hover{
+                    background-color: $colorRosa;
+                    color: white;
+                    cursor: pointer;
+                    transition: all 0.3s ease-in;
+                }
+            }
+
+            h5{
+                color: $colorRosa;
+                font-weight:800;
+                padding: 5px;
+            }
+
+            h3{
+                color: $colorAzul;
+                font-weight:800;
+                padding: 5px;
+            }
+        }
+
+        .blog1{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/community_blog.png);  /*FORMA DE OSCURECER UN BACKGROUN*/
+        }
+
+        .blog2{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/SEO_blog.png);
+        }
+        
+        .blog3{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/diseño_blog.png);
+        }
+        
+        .blog4{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/email_blog.png);
+        }
+        
+        .blog5{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/tienda_blog.png);
+        }
+        
+        .blog6{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/programador_blog.png);
+        }
+        
+        .blog7{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/ux_blog.png);
+        }
+    }
+}
+
+
+
+
+

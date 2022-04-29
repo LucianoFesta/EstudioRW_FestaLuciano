@@ -1,0 +1,125 @@
+@import "_variables.scss";
+
+/* SERVICIOS */
+
+.servicios-tarjetas{
+    position: relative;
+    grid-area: servicios;
+
+    .div-tarjetas{
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .div-servicio{
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            text-align:end;
+            width: 400px;
+            height: 350px;
+            border-radius: 5px;
+            margin: 20px;
+            box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.4s ease;
+            font-weight: 700;
+            line-height: 30px;
+            filter: grayscale(1);
+            color:rgba(63, 63, 63, 1);
+            &:hover{
+                transform: scale(1.1);
+                transition: all 0.4s ease-in-out;
+                cursor: pointer;
+                box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.4);
+                transform: translateY(-3%);
+                filter: grayscale(0);
+                color: aliceblue;
+                &:hover .servicio-texto{
+                    height: 35%;
+                    visibility: visible;
+                    opacity: 1;
+                }
+            }
+
+            h3{
+                font-size: 25px;
+                color: $colorRosa;
+                font-weight: bold;
+                letter-spacing: 2px;
+                text-shadow: 0 0 10px $colorRosa,
+                0 0 20px $colorRosa,
+                0 0 40px $colorRosa;             
+            }
+
+            img{
+                border-radius: 10px;
+                width: 90%;
+                height: 230px;
+            }
+
+            .servicio-texto{
+                position: absolute;
+                padding-right: 8px;
+                bottom: 0;
+                left: 0;
+                height: 0%;
+                transition: all 0.5s ease;
+                opacity: 0;
+                visibility: hidden;
+                background-color: rgba(63, 63, 63, 0.767);
+                border-radius: 5px;
+            }
+        }
+
+        .grafico{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/diseñografico.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .community{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/comunitymanager.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .rrss{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/RRSS.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .web{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/diseño_web.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .marketing{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/email.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .tienda{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/tienda.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .rotulacion{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/rotulacion.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        
+        .corporeas{
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/letras.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }        
+    }
+}
+
+

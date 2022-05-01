@@ -95,11 +95,6 @@ nav{
 
 /*BANNER*/
 
-.banner{
-    height: 100vh;
-    overflow: hidden;
-}
-
 .texto-banner{
     background-color: #444444e7;
     border-radius: 20px;
@@ -294,7 +289,6 @@ footer{
         flex-basis: 100%;
         align-items: center;
     }
-
 
     .texto h1{
         margin: 0;
@@ -646,12 +640,12 @@ footer{
         width: 100%;
     }
 
-    .item-blog {
-        height: auto;
+    .section-blog .div-blog .item-blog{
+        height: 100%;
     }
 
-    .form-contacto {
-        padding: 15px 5px 15px 5px;
+    .section-contacto .form-contacto {
+        padding: 15px 15px 15px 15px;
     }
 
     .campo__input{

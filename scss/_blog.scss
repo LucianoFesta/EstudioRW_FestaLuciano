@@ -1,4 +1,5 @@
 @import "_variables.scss";
+@import "_mixins.scss";
 
 /* BLOG */
 
@@ -13,17 +14,13 @@
         max-width: 100%;
 
         .item-blog{
+            @include propiedadesDiv(400px, 500px, 20px, 10px, $colorFondo);
             display: flex;
             flex-direction: column;
             justify-content: end;
-            padding: 20px;  
             background-size: cover;
-            width: 500px;
-            height: 400px;
             border-radius: 10px;
             line-height: 20px;
-            margin: 10px;
-            color: $colorFondo;
             transition: all 0.5s ease-in-out;
             &:hover{
                 box-shadow: 10px 10px 20px rgba(1, 1, 1, 0.8);

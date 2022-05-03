@@ -5,6 +5,7 @@
 @import "_clientes.scss";
 @import "_contacto.scss";
 @import "_blog.scss";
+@import "_mixins.scss";
 
 
 *{
@@ -30,14 +31,14 @@ h1{
     font-weight: 900;
     margin: 30px 0px;
     transition: .5s linear;
+    &:hover{
+        letter-spacing: 4px;
+        text-shadow: 0 0 10px $colorAzul,
+        0 0 20px $colorAzul,
+        0 0 40px $colorAzul;
+    }
 }
 
-h1:hover{
-    letter-spacing: 4px;
-    text-shadow: 0 0 10px $colorAzul,
-    0 0 20px $colorAzul,
-    0 0 40px $colorAzul;
-}
 
 /*MENU DE NAVEGACION*/
 
@@ -102,36 +103,36 @@ nav{
     text-shadow: 0 0 10px $colorAzul,
     0 0 20px $colorAzul,
     0 0 40px $colorAzul;
-}
 
-.texto-banner h5{
-    color: $colorFondo;
-    font-size: 30px;
+    h5{
+        color: $colorFondo;
+        font-size: 30px;
+    }
 }
 
 .carousel-inner{
     max-height: 600px;
-}
 
-.carrousel1{
-    height: 80vh;
-    background-image: url(../img/carrousel3.png);
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
-}
-
-.carrousel2{
-    @extend .carrousel1;
-    background-image: url(../img/carrousel2.png);
-
-}
-
-.carrousel3{
-    @extend .carrousel1;
-    background-image: url(../img/carrousel1.png);
+    .carrousel1{
+        height: 80vh;
+        background-image: url(../img/carrousel3.png);
+        overflow: hidden;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center center;
+    }
+    
+    .carrousel2{
+        @extend .carrousel1;
+        background-image: url(../img/carrousel2.png);
+    
+    }
+    
+    .carrousel3{
+        @extend .carrousel1;
+        background-image: url(../img/carrousel1.png);
+    }
 }
 
 

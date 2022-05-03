@@ -1,0 +1,7 @@
+@mixin propiedadesDiv ($alto, $ancho, $padding, $margen, $color){
+    height: $ancho;
+    width: $ancho;
+    padding: $padding;
+    margin: $margen;
+    color: $color;
+};

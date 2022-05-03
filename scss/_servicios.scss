@@ -1,4 +1,5 @@
 @import "_variables.scss";
+@import "_mixins.scss";
 
 /* SERVICIOS */
 
@@ -12,21 +13,18 @@
         justify-content: center;
 
         .div-servicio{
+            @include propiedadesDiv(350px, 400px, 0px, 20px, rgba(63, 63, 63, 1));
             position: relative;
             display: flex;
             flex-direction: column;
             justify-content: flex-end;
             text-align:end;
-            width: 400px;
-            height: 350px;
             border-radius: 5px;
-            margin: 20px;
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
             transition: all 0.4s ease;
             font-weight: 700;
             line-height: 30px;
             filter: grayscale(1);
-            color:rgba(63, 63, 63, 1);
             &:hover{
                 transform: scale(1.1);
                 transition: all 0.4s ease-in-out;

@@ -123,23 +123,14 @@ nav{
 }
 
 .carrousel2{
-    height: 80vh;
+    @extend .corrousel1;
     background-image: url(../img/carrousel2.png);
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
+
 }
 
 .carrousel3{
-    height: 80vh;
+    @extend .corrousel1;
     background-image: url(../img/carrousel1.png);
-    overflow: hidden;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
 }
 
 
@@ -155,9 +146,7 @@ nav{
     padding: 10px 15px;
     background-color: #0988a59c;
     transition: all 0.3s ease-in-out;
-}
-
-.contenedor-btn:hover{
+    &:hover{
     border: 2px solid $colorRosa ;
     border-color: #c01169b2;
     background-color: #f7f7f7b6;
@@ -165,15 +154,16 @@ nav{
     0 0 20px $colorRosa,
     0 0 40px $colorRosa  
     ; /*Sombra horizontal, vertical, blur y color*/
+    }
+
+    i{
+        color: black;
+        &:hover{
+            color: #035e72;
+        }
+    }
 }
 
-.contenedor-btn i{
-    color: black;
-}
-
-.contenedor-btn i:hover{
-    color: #035e72;
-}
 
 /* FOOTER */
 
@@ -182,33 +172,38 @@ footer{
     background-color: #cecece;
     align-items: center;
     margin-top: 50px;
-}
 
-.footer ul {
-    padding: 0;
-}
+    ul {
+        padding: 0;
+    }
 
-.footer a{
-    text-decoration: none;
-    color:$colorRosa;
-    transition: all .5s ease;
-}
+    a{
+        text-decoration: none;
+        color:$colorRosa;
+        transition: all .5s ease;
+        &:hover{
+            color:$colorAzul;
+        }
+    }
 
-.footer a:hover{
-    color:$colorAzul;
-}
+    h2{
+        color: $colorAzul;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        padding-top: 20px;
+    }
 
-.logo-footer{
-    display:flex;
-    align-content: center;
-}
+    .logo-footer{
+        display:flex;
+        align-content: center;
 
-.logo-footer img{
-    width: 253px;
-    height: 53px;
-    text-align: center;
+        img{
+            width: 253px;
+            height: 53px;
+            text-align: center;
+        }
+    }
 }
-
 
 .contactos{
     line-height: 30px;
@@ -224,12 +219,6 @@ footer{
     font-weight: 600;
 }
 
-.footer h2{
-    color: $colorAzul;
-    text-transform: uppercase;
-    padding-bottom: 5px;
-    padding-top: 20px;
-}
 
 .copy{
     background-color: #cecece;
@@ -237,10 +226,10 @@ footer{
     text-align: center;
     font-size: 12px;
     padding-top: 20px;
-}
 
-.copy p{
-    margin-bottom: 0;
+    p{
+        margin-bottom: 0;
+    }
 }
 
 

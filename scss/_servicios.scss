@@ -81,43 +81,36 @@
         
         .community{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/comunitymanager.png);
-            background-size: cover;
-            background-repeat: no-repeat;
+            @extend .grafico;
         }
         
         .rrss{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/RRSS.png);
-            background-size: cover;
-            background-repeat: no-repeat;
+            @extend .grafico;
         }
         
         .web{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/diseño_web.png);
-            background-size: cover;
-            background-repeat: no-repeat;
+            @extend .grafico;
         }
         .marketing{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/email.png);
-            background-size: cover;
-            background-repeat: no-repeat;
+            @extend .grafico;
         }
         
         .tienda{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/tienda.png);
-            background-size: cover;
-            background-repeat: no-repeat;
+            @extend .grafico;
         }
         
         .rotulacion{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/rotulacion.png);
-            background-size: cover;
-            background-repeat: no-repeat;
+            @extend .grafico;
         }
         
         .corporeas{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/letras.png);
-            background-size: cover;
-            background-repeat: no-repeat;
+            @extend .grafico;
         }        
     }
 }

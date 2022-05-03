@@ -75,22 +75,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*SECTION RESUMEN*/
 
 .seccion-resumen{
@@ -102,98 +86,98 @@
     background-size: cover;
     background-attachment: fixed;
     height: 400px;
+
+    .resumen{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .item-resumen{
+            padding: 40px 100px;
+            text-align: center;
+            align-items: center;
+
+            span{
+                color:rgb(241, 238, 240);
+                font-weight: bolder;
+                font-size: 20px;
+                padding: 10px;
+                border-radius: 10px;
+                background-color: rgba(128, 128, 128, 0.8);
+            }
+
+            .item i{
+                color: $colorFondo;
+                text-shadow: 0 0 2px $colorFondo,
+                0 0 4px $colorFondo,
+                0 0 8px $colorFondo;
+            }
+
+            .numero-resumen{
+                font-size: 80px;
+                color: $colorRosa;
+                font-weight: 900;
+                margin-bottom: 5px;
+                text-shadow: 0 0 5px $colorRosa,
+                0 0 10px $colorRosa,
+                0 0 20px $colorRosa;
+            }
+        }
+    }
 }
 
-.resumen{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.item-resumen{
-    padding: 40px 100px;
-    text-align: center;
-    align-items: center;
-}
 
-.item i{
-    color: #f7f7f7;
-    text-shadow: 0 0 2px #f7f7f7,
-    0 0 4px #f7f7f7,
-    0 0 8px #f7f7f7;
-}
-
-.item-resumen span{
-    color:rgb(241, 238, 240);
-    font-weight: bolder;
-    font-size: 20px;
-
-    padding: 10px;
-    border-radius: 10px;
-    background-color: rgba(128, 128, 128, 0.8);
-}
-
-.numero-resumen{
-    font-size: 80px;
-    color:#ec1780;
-    font-weight: 900;
-    margin-bottom: 5px;
-    text-shadow: 0 0 5px #ec1780,
-    0 0 10px #ec1780,
-    0 0 20px #ec1780;
-}
 /* SERVICIOS */
 
 .section-servicios{
     grid-area: servicios;
     width: 100%;
     text-align: center;
-}
 
-.lista-servicios{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
+    .lista-servicios{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
 
-.servicio{
-    position: relative;
-    overflow: hidden;
-    margin: 30px 5px;
-    height: 300px;
-}
+        .servicio{
+            position: relative;
+            overflow: hidden;
+            margin: 30px 5px;
+            height: 300px;
+            &:hover p{
+                bottom: -50px;
+                opacity: 0;
+            }
 
-.servicio img{
-    max-width: 100%;
-    filter:grayscale(1);
-    transition: all .5s ease-in-out;
-}
+            img{
+                max-width: 100%;
+                filter:grayscale(1);
+                transition: all .5s ease-in-out;
+                &:hover{
+                    filter: grayscale(0);
+                    transform: scale(1.1);
+                    cursor: pointer;
+                }
+            }
 
-.servicio img:hover{
-    filter: grayscale(0);
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
-.servicio p{
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    margin: 0;
-    padding: 10px 15px;
-    background-color: rgba(63, 63, 63, .55);
-    width: 100%;
-    text-align: left;
-    text-transform: uppercase;
-    color:rgb(255, 81, 168);
-    transition: all .5s ease-in-out;
-    font-weight: bold;
-    text-shadow: 0 0 5px #ec1780,
-    0 0 10px #ec1780,
-    0 0 20px #ec1780;
-}
-
-.servicio:hover p{
-    bottom: -50px;
-    opacity: 0;
+            p{
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                margin: 0;
+                padding: 10px 15px;
+                background-color: rgba(63, 63, 63, .55);
+                width: 100%;
+                text-align: left;
+                text-transform: uppercase;
+                color:$colorRosa;
+                transition: all .5s ease-in-out;
+                font-weight: bold;
+                text-shadow: 0 0 5px $colorRosa,
+                0 0 10px $colorRosa,
+                0 0 20px $colorRosa;
+            }
+        }
+    }
 }

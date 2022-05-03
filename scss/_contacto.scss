@@ -45,12 +45,12 @@
             }
             
             .btn-contacto{
+                border-radius: map-get($btn_link , bordeRedondo);
+                padding: map-get($btn_link , margenInterno);
+                font-weight: map-get($btn_link , tamanioLetra);
+                letter-spacing: map-get($btn_link , espacioLetras);
                 color: $colorRosa;
                 border: none;
-                border-radius: 2px;
-                padding: 10px 30px;
-                font-weight: bold;
-                letter-spacing: 1px;
                 text-transform: uppercase;
                 background-color: rgb(187, 185, 185);
                 &:hover{

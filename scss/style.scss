@@ -72,10 +72,11 @@ nav{
 }
 
 .navbar-nav a{
+    border-radius: map-get($btn_link , bordeRedondo);
+    padding: map-get($btn_link , margenInterno);
+    font-weight: map-get($btn_link , tamanioLetra);
+    letter-spacing: map-get($btn_link , espacioLetras);
     color: $colorRosa !important; 
-    border-radius: 5px;
-    padding: 13px 13px;
-    font-weight: 900;
     margin-right: 30px;
 }
 
@@ -123,13 +124,13 @@ nav{
 }
 
 .carrousel2{
-    @extend .corrousel1;
+    @extend .carrousel1;
     background-image: url(../img/carrousel2.png);
 
 }
 
 .carrousel3{
-    @extend .corrousel1;
+    @extend .carrousel1;
     background-image: url(../img/carrousel1.png);
 }
 

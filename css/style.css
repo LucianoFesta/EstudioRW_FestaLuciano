@@ -77,7 +77,6 @@
 
 /*SECTION RESUMEN*/
 .seccion-resumen {
-  grid-area: resumen;
   margin-top: 20px;
   margin-bottom: 20px;
   background: url(../img/banner2.png);
@@ -87,7 +86,7 @@
   height: 400px;
 }
 
-.resumen {
+.seccion-resumen .resumen {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -99,7 +98,7 @@
           justify-content: center;
 }
 
-.item-resumen {
+.seccion-resumen .resumen .item-resumen {
   padding: 40px 100px;
   text-align: center;
   -webkit-box-align: center;
@@ -107,12 +106,7 @@
           align-items: center;
 }
 
-.item i {
-  color: #f7f7f7;
-  text-shadow: 0 0 2px #f7f7f7, 0 0 4px #f7f7f7, 0 0 8px #f7f7f7;
-}
-
-.item-resumen span {
+.seccion-resumen .resumen .item-resumen span {
   color: #f1eef0;
   font-weight: bolder;
   font-size: 20px;
@@ -121,22 +115,26 @@
   background-color: rgba(128, 128, 128, 0.8);
 }
 
-.numero-resumen {
+.seccion-resumen .resumen .item-resumen .item i {
+  color: #f7f7f7;
+  text-shadow: 0 0 2px #f7f7f7, 0 0 4px #f7f7f7, 0 0 8px #f7f7f7;
+}
+
+.seccion-resumen .resumen .item-resumen .numero-resumen {
   font-size: 80px;
   color: #ec1780;
   font-weight: 900;
   margin-bottom: 5px;
-  text-shadow: 0 0 5px #ec1780, 0 0 10px #ec1780, 0 0 20px #ec1780;
+  text-shadow: 0 0 5px #ec1780, 0 0 10px #ec1780, 0 0 20px #ec1780;
 }
 
 /* SERVICIOS */
 .section-servicios {
-  grid-area: servicios;
   width: 100%;
   text-align: center;
 }
 
-.lista-servicios {
+.section-servicios .lista-servicios {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,14 +145,19 @@
           justify-content: center;
 }
 
-.servicio {
+.section-servicios .lista-servicios .servicio {
   position: relative;
   overflow: hidden;
   margin: 30px 5px;
   height: 300px;
 }
 
-.servicio img {
+.section-servicios .lista-servicios .servicio:hover p {
+  bottom: -50px;
+  opacity: 0;
+}
+
+.section-servicios .lista-servicios .servicio img {
   max-width: 100%;
   -webkit-filter: grayscale(1);
           filter: grayscale(1);
@@ -162,7 +165,7 @@
   transition: all .5s ease-in-out;
 }
 
-.servicio img:hover {
+.section-servicios .lista-servicios .servicio img:hover {
   -webkit-filter: grayscale(0);
           filter: grayscale(0);
   -webkit-transform: scale(1.1);
@@ -170,7 +173,7 @@
   cursor: pointer;
 }
 
-.servicio p {
+.section-servicios .lista-servicios .servicio p {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -180,16 +183,11 @@
   width: 100%;
   text-align: left;
   text-transform: uppercase;
-  color: #ff51a8;
+  color: #ec1780;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   font-weight: bold;
-  text-shadow: 0 0 5px #ec1780, 0 0 10px #ec1780, 0 0 20px #ec1780;
-}
-
-.servicio:hover p {
-  bottom: -50px;
-  opacity: 0;
+  text-shadow: 0 0 5px #ec1780, 0 0 10px #ec1780, 0 0 20px #ec1780;
 }
 
 /* NOSOTROS */
@@ -302,8 +300,7 @@
   color: #0988a5;
 }
 
-.box
-.box:hover h4 {
+.box .box:hover h4 {
   color: #0988a5;
   text-shadow: 0 0 2px #0988a5, 0 0 4px #0988a5, 0 0 8px #0988a5;
 }
@@ -311,7 +308,6 @@
 /* SERVICIOS */
 .servicios-tarjetas {
   position: relative;
-  grid-area: servicios;
 }
 
 .servicios-tarjetas .div-tarjetas {
@@ -403,7 +399,7 @@
   border-radius: 5px;
 }
 
-.servicios-tarjetas .div-tarjetas .grafico {
+.servicios-tarjetas .div-tarjetas .grafico, .servicios-tarjetas .div-tarjetas .community, .servicios-tarjetas .div-tarjetas .rrss, .servicios-tarjetas .div-tarjetas .web, .servicios-tarjetas .div-tarjetas .marketing, .servicios-tarjetas .div-tarjetas .tienda, .servicios-tarjetas .div-tarjetas .rotulacion, .servicios-tarjetas .div-tarjetas .corporeas {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/diseñografico.png);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/diseñografico.png);
   background-size: cover;
@@ -413,50 +409,36 @@
 .servicios-tarjetas .div-tarjetas .community {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/comunitymanager.png);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/comunitymanager.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .servicios-tarjetas .div-tarjetas .rrss {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/RRSS.png);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/RRSS.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .servicios-tarjetas .div-tarjetas .web {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/diseño_web.png);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/diseño_web.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .servicios-tarjetas .div-tarjetas .marketing {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/email.png);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/email.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .servicios-tarjetas .div-tarjetas .tienda {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/tienda.png);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/tienda.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .servicios-tarjetas .div-tarjetas .rotulacion {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/rotulacion.png);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/rotulacion.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .servicios-tarjetas .div-tarjetas .corporeas {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/letras.png);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/letras.png);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 /* SECCION CLIENTES */
@@ -586,12 +568,12 @@
 }
 
 .section-contacto .form-contacto .campo .btn-contacto {
+  border-radius: 2px;
+  padding: 13px 13px;
+  font-weight: 900;
+  letter-spacing: 1px;
   color: #ec1780;
   border: none;
-  border-radius: 2px;
-  padding: 10px 30px;
-  font-weight: bold;
-  letter-spacing: 1px;
   text-transform: uppercase;
   background-color: #bbb9b9;
 }
@@ -786,10 +768,11 @@ nav {
 }
 
 .navbar-nav a {
-  color: #ec1780 !important;
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 13px 13px;
   font-weight: 900;
+  letter-spacing: 1px;
+  color: #ec1780 !important;
   margin-right: 30px;
 }
 
@@ -826,7 +809,7 @@ nav {
   max-height: 600px;
 }
 
-.carrousel1 {
+.carrousel1, .carrousel2, .carrousel3 {
   height: 80vh;
   background-image: url(../img/carrousel3.png);
   overflow: hidden;
@@ -837,23 +820,11 @@ nav {
 }
 
 .carrousel2 {
-  height: 80vh;
   background-image: url(../img/carrousel2.png);
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
 }
 
 .carrousel3 {
-  height: 80vh;
   background-image: url(../img/carrousel1.png);
-  overflow: hidden;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
 }
 
 /* BOTON FLOTANTE */
@@ -897,22 +868,29 @@ footer {
   margin-top: 50px;
 }
 
-.footer ul {
+footer ul {
   padding: 0;
 }
 
-.footer a {
+footer a {
   text-decoration: none;
   color: #ec1780;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
 }
 
-.footer a:hover {
+footer a:hover {
   color: #0988a5;
 }
 
-.logo-footer {
+footer h2 {
+  color: #0988a5;
+  text-transform: uppercase;
+  padding-bottom: 5px;
+  padding-top: 20px;
+}
+
+footer .logo-footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -920,7 +898,7 @@ footer {
       align-content: center;
 }
 
-.logo-footer img {
+footer .logo-footer img {
   width: 253px;
   height: 53px;
   text-align: center;
@@ -938,13 +916,6 @@ footer {
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
-}
-
-.footer h2 {
-  color: #0988a5;
-  text-transform: uppercase;
-  padding-bottom: 5px;
-  padding-top: 20px;
 }
 
 .copy {

@@ -521,7 +521,7 @@
 }
 
 .section-contacto .img-contacto {
-  background-image: url(../img/contacto.png);
+  background-image: url(../img/contacto.jpg);
   height: 400px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -670,39 +670,39 @@
 }
 
 .section-blog .div-blog .blog1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/community_blog.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/community_blog.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/community_blog.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/community_blog.jpg);
   /*FORMA DE OSCURECER UN BACKGROUN*/
 }
 
 .section-blog .div-blog .blog2 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/SEO_blog.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/SEO_blog.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/SEO_blog.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/SEO_blog.jpg);
 }
 
 .section-blog .div-blog .blog3 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/diseño_blog.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/diseño_blog.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/diseño_blog.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/diseño_blog.jpg);
 }
 
 .section-blog .div-blog .blog4 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/email_blog.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/email_blog.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/email_blog.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/email_blog.jpg);
 }
 
 .section-blog .div-blog .blog5 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/tienda_blog.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/tienda_blog.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/tienda_blog.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/tienda_blog.jpg);
 }
 
 .section-blog .div-blog .blog6 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/programador_blog.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/programador_blog.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/programador_blog.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/programador_blog.jpg);
 }
 
 .section-blog .div-blog .blog7 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/ux_blog.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/ux_blog.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/ux_blog.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/ux_blog.jpg);
 }
 
 * {

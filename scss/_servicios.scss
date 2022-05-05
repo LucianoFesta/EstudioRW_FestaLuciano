@@ -71,42 +71,42 @@
         }
 
         .grafico{
-            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/diseñografico.png);
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/diseñografico.jpg);
             background-size: cover;
             background-repeat: no-repeat;
         }
         
         .community{
-            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/comunitymanager.png);
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/comunitymanager.jpg);
             @extend .grafico;
         }
         
         .rrss{
-            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/RRSS.png);
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/RRSS.jpg);
             @extend .grafico;
         }
         
         .web{
-            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/diseño_web.png);
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/diseño_web.jpg);
             @extend .grafico;
         }
         .marketing{
-            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/email.png);
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/email.jpg);
             @extend .grafico;
         }
         
         .tienda{
-            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/tienda.png);
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/tienda.jpg);
             @extend .grafico;
         }
         
         .rotulacion{
-            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/rotulacion.png);
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/rotulacion.jpg);
             @extend .grafico;
         }
         
         .corporeas{
-            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/letras.png);
+            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/letras.jpg);
             @extend .grafico;
         }        
     }

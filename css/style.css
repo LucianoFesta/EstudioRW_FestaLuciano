@@ -79,7 +79,7 @@
 .seccion-resumen {
   margin-top: 20px;
   margin-bottom: 20px;
-  background: url(../img/banner2.png);
+  background: url(../img/banner2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -401,45 +401,45 @@
 }
 
 .servicios-tarjetas .div-tarjetas .grafico, .servicios-tarjetas .div-tarjetas .community, .servicios-tarjetas .div-tarjetas .rrss, .servicios-tarjetas .div-tarjetas .web, .servicios-tarjetas .div-tarjetas .marketing, .servicios-tarjetas .div-tarjetas .tienda, .servicios-tarjetas .div-tarjetas .rotulacion, .servicios-tarjetas .div-tarjetas .corporeas {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/diseñografico.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/diseñografico.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/diseñografico.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/diseñografico.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .servicios-tarjetas .div-tarjetas .community {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/comunitymanager.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/comunitymanager.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/comunitymanager.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/comunitymanager.jpg);
 }
 
 .servicios-tarjetas .div-tarjetas .rrss {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/RRSS.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/RRSS.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/RRSS.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/RRSS.jpg);
 }
 
 .servicios-tarjetas .div-tarjetas .web {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/diseño_web.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/diseño_web.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/diseño_web.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/diseño_web.jpg);
 }
 
 .servicios-tarjetas .div-tarjetas .marketing {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/email.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/email.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/email.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/email.jpg);
 }
 
 .servicios-tarjetas .div-tarjetas .tienda {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/tienda.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/tienda.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/tienda.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/tienda.jpg);
 }
 
 .servicios-tarjetas .div-tarjetas .rotulacion {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/rotulacion.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/rotulacion.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/rotulacion.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/rotulacion.jpg);
 }
 
 .servicios-tarjetas .div-tarjetas .corporeas {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/letras.png);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/letras.png);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/letras.jpg);
+  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/letras.jpg);
 }
 
 /* SECCION CLIENTES */
@@ -812,7 +812,7 @@ nav {
 
 .carousel-inner .carrousel1, .carousel-inner .carrousel2, .carousel-inner .carrousel3 {
   height: 80vh;
-  background-image: url(../img/carrousel3.png);
+  background-image: url(../img/carrousel3.jpg);
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -821,11 +821,11 @@ nav {
 }
 
 .carousel-inner .carrousel2 {
-  background-image: url(../img/carrousel2.png);
+  background-image: url(../img/carrousel2.jpg);
 }
 
 .carousel-inner .carrousel3 {
-  background-image: url(../img/carrousel1.png);
+  background-image: url(../img/carrousel1.jpg);
 }
 
 /* BOTON FLOTANTE */

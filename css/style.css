@@ -1000,10 +1000,8 @@ footer .logo-footer img {
     text-align: justify;
   }
   .resumen {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .item-resumen {
     padding: 40px 50px;
@@ -1245,8 +1243,7 @@ footer .logo-footer img {
     padding-bottom: 5px;
   }
   .section-dividida .imagen {
-    width: 100%;
-    height: 150px;
+    display: none;
   }
   .texto h1 {
     padding-bottom: 0;
@@ -1263,7 +1260,7 @@ footer .logo-footer img {
     font-size: 40px;
   }
   .item span {
-    font-size: 15px;
+    font-size: 15px !important;
   }
   .diseño {
     text-align: center;
@@ -1304,7 +1301,7 @@ footer .logo-footer img {
         flex-wrap: wrap;
   }
   .servicio {
-    height: 170px;
+    height: 200px !important;
   }
   .servicio img {
     height: 100%;
@@ -1321,7 +1318,7 @@ footer .logo-footer img {
         align-content: space-around;
   }
   .texto-presentacion {
-    font-size: 15px;
+    font-size: 15px !important;
     width: 95%;
   }
   .miembros, .box {
@@ -1329,6 +1326,15 @@ footer .logo-footer img {
   }
   .div-miembros img {
     width: 100%;
+  }
+  .div-servicio {
+    height: 350px !important;
+  }
+  .capa h3 {
+    font-size: 25px !important;
+  }
+  .capa p {
+    font-size: 20px !important;
   }
   .section-blog .div-blog .item-blog {
     height: 100%;

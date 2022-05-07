@@ -343,8 +343,8 @@
   border-radius: 5px;
   -webkit-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
           box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-  -webkit-transition: all 0.4s ease;
-  transition: all 0.4s ease;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
   font-weight: 700;
   line-height: 30px;
   -webkit-filter: grayscale(1);
@@ -354,8 +354,8 @@
 .servicios-tarjetas .div-tarjetas .div-servicio:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
-  -webkit-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out;
+  -webkit-transition: all 0.8s ease-in-out;
+  transition: all 0.8s ease-in-out;
   cursor: pointer;
   -webkit-box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.4);
           box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.4);
@@ -392,8 +392,8 @@
   bottom: 0;
   left: 0;
   height: 0%;
-  -webkit-transition: all 0.5s ease;
-  transition: all 0.5s ease;
+  -webkit-transition: all 0.8s ease;
+  transition: all 0.8s ease;
   opacity: 0;
   visibility: hidden;
   background-color: rgba(63, 63, 63, 0.767);
@@ -401,10 +401,18 @@
 }
 
 .servicios-tarjetas .div-tarjetas .grafico, .servicios-tarjetas .div-tarjetas .community, .servicios-tarjetas .div-tarjetas .rrss, .servicios-tarjetas .div-tarjetas .web, .servicios-tarjetas .div-tarjetas .marketing, .servicios-tarjetas .div-tarjetas .tienda, .servicios-tarjetas .div-tarjetas .rotulacion, .servicios-tarjetas .div-tarjetas .corporeas {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/diseñografico.jpg);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/diseñografico.jpg);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/diseñografico.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/diseñografico.jpg);
   background-size: cover;
+  background-position: right;
   background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.servicios-tarjetas .div-tarjetas .grafico:hover, .servicios-tarjetas .div-tarjetas .community:hover, .servicios-tarjetas .div-tarjetas .rrss:hover, .servicios-tarjetas .div-tarjetas .web:hover, .servicios-tarjetas .div-tarjetas .marketing:hover, .servicios-tarjetas .div-tarjetas .tienda:hover, .servicios-tarjetas .div-tarjetas .rotulacion:hover, .servicios-tarjetas .div-tarjetas .corporeas:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/diseñografico.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/diseñografico.jpg);
+  background-size: cover;
 }
 
 .servicios-tarjetas .div-tarjetas .community {
@@ -412,9 +420,21 @@
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/comunitymanager.jpg);
 }
 
+.servicios-tarjetas .div-tarjetas .community:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/comunitymanager.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/comunitymanager.jpg);
+  background-size: cover;
+}
+
 .servicios-tarjetas .div-tarjetas .rrss {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/RRSS.jpg);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/RRSS.jpg);
+}
+
+.servicios-tarjetas .div-tarjetas .rrss:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/RRSS.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/RRSS.jpg);
+  background-size: cover;
 }
 
 .servicios-tarjetas .div-tarjetas .web {
@@ -422,9 +442,21 @@
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/diseño_web.jpg);
 }
 
+.servicios-tarjetas .div-tarjetas .web:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/diseño_web.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/diseño_web.jpg);
+  background-size: cover;
+}
+
 .servicios-tarjetas .div-tarjetas .marketing {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/email.jpg);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/email.jpg);
+}
+
+.servicios-tarjetas .div-tarjetas .marketing:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/email.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/email.jpg);
+  background-size: cover;
 }
 
 .servicios-tarjetas .div-tarjetas .tienda {
@@ -432,14 +464,32 @@
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/tienda.jpg);
 }
 
+.servicios-tarjetas .div-tarjetas .tienda:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/tienda.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/tienda.jpg);
+  background-size: cover;
+}
+
 .servicios-tarjetas .div-tarjetas .rotulacion {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/rotulacion.jpg);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/rotulacion.jpg);
 }
 
+.servicios-tarjetas .div-tarjetas .rotulacion:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/rotulacion.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/rotulacion.jpg);
+  background-size: cover;
+}
+
 .servicios-tarjetas .div-tarjetas .corporeas {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/letras.jpg);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/letras.jpg);
+}
+
+.servicios-tarjetas .div-tarjetas .corporeas:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/letras.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/letras.jpg);
+  background-size: cover;
 }
 
 /* SECCION CLIENTES */
@@ -669,10 +719,19 @@
   padding: 5px;
 }
 
-.section-blog .div-blog .blog1 {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/community_blog.jpg);
-  background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/community_blog.jpg);
-  /*FORMA DE OSCURECER UN BACKGROUN*/
+.section-blog .div-blog .blog1, .section-blog .div-blog .blog2, .section-blog .div-blog .blog3, .section-blog .div-blog .blog4, .section-blog .div-blog .blog5, .section-blog .div-blog .blog6, .section-blog .div-blog .blog7 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/community_blog.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/community_blog.jpg);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+.section-blog .div-blog .blog1:hover, .section-blog .div-blog .blog2:hover, .section-blog .div-blog .blog3:hover, .section-blog .div-blog .blog4:hover, .section-blog .div-blog .blog5:hover, .section-blog .div-blog .blog6:hover, .section-blog .div-blog .blog7:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/community_blog.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/community_blog.jpg);
+  background-size: cover;
 }
 
 .section-blog .div-blog .blog2 {
@@ -680,9 +739,21 @@
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/SEO_blog.jpg);
 }
 
+.section-blog .div-blog .blog2:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/SEO_blog.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/SEO_blog.jpg);
+  background-size: cover;
+}
+
 .section-blog .div-blog .blog3 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/diseño_blog.jpg);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/diseño_blog.jpg);
+}
+
+.section-blog .div-blog .blog3:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/diseño_blog.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/diseño_blog.jpg);
+  background-size: cover;
 }
 
 .section-blog .div-blog .blog4 {
@@ -690,9 +761,21 @@
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/email_blog.jpg);
 }
 
+.section-blog .div-blog .blog4:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/email_blog.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/email_blog.jpg);
+  background-size: cover;
+}
+
 .section-blog .div-blog .blog5 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/tienda_blog.jpg);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/tienda_blog.jpg);
+}
+
+.section-blog .div-blog .blog5:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/tienda_blog.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/tienda_blog.jpg);
+  background-size: cover;
 }
 
 .section-blog .div-blog .blog6 {
@@ -700,9 +783,21 @@
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/programador_blog.jpg);
 }
 
+.section-blog .div-blog .blog6:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/programador_blog.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/programador_blog.jpg);
+  background-size: cover;
+}
+
 .section-blog .div-blog .blog7 {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.5))), url(../img/ux_blog.jpg);
   background-image: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.5)), url(../img/ux_blog.jpg);
+}
+
+.section-blog .div-blog .blog7:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(16, 16, 16, 0.5)), to(rgba(16, 16, 16, 0.3))), url(../img/ux_blog.jpg);
+  background: linear-gradient(rgba(16, 16, 16, 0.5), rgba(16, 16, 16, 0.3)), url(../img/ux_blog.jpg);
+  background-size: cover;
 }
 
 * {

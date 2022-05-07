@@ -21,13 +21,13 @@
             text-align:end;
             border-radius: 5px;
             box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
-            transition: all 0.4s ease;
+            transition: all 0.8s ease;
             font-weight: 700;
             line-height: 30px;
             filter: grayscale(1);
             &:hover{
                 transform: scale(1.1);
-                transition: all 0.4s ease-in-out;
+                transition: all 0.8s ease-in-out;
                 cursor: pointer;
                 box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.4);
                 transform: translateY(-3%);
@@ -62,7 +62,7 @@
                 bottom: 0;
                 left: 0;
                 height: 0%;
-                transition: all 0.5s ease;
+                transition: all 0.8s ease;
                 opacity: 0;
                 visibility: hidden;
                 background-color: rgba(63, 63, 63, 0.767);
@@ -71,43 +71,77 @@
         }
 
         .grafico{
-            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/diseñografico.jpg);
+            background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/diseñografico.jpg);
             background-size: cover;
+            background-position: right;
             background-repeat: no-repeat;
+            background-position-x: center;
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/diseñografico.jpg);
+                background-size: cover;
+            }
         }
         
         .community{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/comunitymanager.jpg);
             @extend .grafico;
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/comunitymanager.jpg);
+                background-size: cover;
+            }
         }
         
         .rrss{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/RRSS.jpg);
             @extend .grafico;
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/RRSS.jpg);
+                background-size: cover;
+            }
         }
         
         .web{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/diseño_web.jpg);
             @extend .grafico;
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/diseño_web.jpg);
+                background-size: cover;
+            }
         }
         .marketing{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/email.jpg);
             @extend .grafico;
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/email.jpg);
+                background-size: cover;
+            }
         }
         
         .tienda{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/tienda.jpg);
             @extend .grafico;
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/tienda.jpg);
+                background-size: cover;
+            }
         }
         
         .rotulacion{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/rotulacion.jpg);
             @extend .grafico;
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/rotulacion.jpg);
+                background-size: cover;
+            }
         }
         
         .corporeas{
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/letras.jpg);
             @extend .grafico;
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/letras.jpg);
+                background-size: cover;
+            }
         }        
     }
 }

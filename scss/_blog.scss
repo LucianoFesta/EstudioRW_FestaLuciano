@@ -59,31 +59,69 @@
         }
 
         .blog1{
-            background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/community_blog.jpg);  /*FORMA DE OSCURECER UN BACKGROUN*/
+            background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/community_blog.jpg);
+            background-size: cover;
+            background-position: right;
+            background-repeat: no-repeat;
+            background-position-x: center;
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/community_blog.jpg);
+                background-size: cover;
+            }
         }
 
         .blog2{
+            @extend .blog1;
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/SEO_blog.jpg);
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/SEO_blog.jpg);
+                background-size: cover;
+            }
         }
         
         .blog3{
+            @extend .blog1;
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/diseño_blog.jpg);
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/diseño_blog.jpg);
+                background-size: cover;
+            }
         }
         
         .blog4{
+            @extend .blog1;
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/email_blog.jpg);
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/email_blog.jpg);
+                background-size: cover;
+            }
         }
         
         .blog5{
+            @extend .blog1;
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/tienda_blog.jpg);
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/tienda_blog.jpg);
+                background-size: cover;
+            }
         }
         
         .blog6{
+            @extend .blog1;
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/programador_blog.jpg);
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/programador_blog.jpg);
+                background-size: cover;
+            }
         }
         
         .blog7{
+            @extend .blog1;
             background-image: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.5)), url(../img/ux_blog.jpg);
+            &:hover{
+                background: linear-gradient(rgba(16,16,16,.5),rgba(16,16,16,.3)), url(../img/ux_blog.jpg);
+                background-size: cover;
+            }
         }
     }
 }

@@ -42,7 +42,9 @@
 
         img{
             border-radius: 50%;
+            transition: all .5s ease-in-out;
         }
+        
 
         .capa{
             position: absolute;

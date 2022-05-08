@@ -545,6 +545,8 @@
 
 .clientes-div figure img {
   border-radius: 50%;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .clientes-div figure .capa {
@@ -683,8 +685,8 @@
 .section-blog .div-blog .item-blog:hover {
   -webkit-box-shadow: 10px 10px 20px rgba(1, 1, 1, 0.8);
           box-shadow: 10px 10px 20px rgba(1, 1, 1, 0.8);
-  -webkit-transform: scale(1.1) !important;
-          transform: scale(1.1) !important;
+  -webkit-transform: scale(1.01) !important;
+          transform: scale(1.01) !important;
   cursor: pointer;
 }
 
@@ -977,6 +979,9 @@ footer a {
 
 footer a:hover {
   color: #0988a5;
+  letter-spacing: 1px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
 }
 
 footer h2 {

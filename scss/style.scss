@@ -185,6 +185,8 @@ footer{
         transition: all .5s ease;
         &:hover{
             color:$colorAzul;
+            letter-spacing: 1px;
+            transform: scale(1.1);
         }
     }
 

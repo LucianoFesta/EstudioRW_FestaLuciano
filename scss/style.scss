@@ -115,7 +115,7 @@ nav{
 
     .carrousel1{
         height: 80vh;
-        background-image: url(../img/carrousel3.jpg);
+        background-image: url(../img/banne1_nuevo.jpg);
         overflow: hidden;
         background-repeat: no-repeat;
         background-size: cover;
@@ -125,13 +125,13 @@ nav{
     
     .carrousel2{
         @extend .carrousel1;
-        background-image: url(../img/carrousel2.jpg);
+        background-image: url(../img/banner2_nuevo.jpg);
     
     }
     
     .carrousel3{
         @extend .carrousel1;
-        background-image: url(../img/carrousel1.jpg);
+        background-image: url(../img/banner3_nuevo.jpg);
     }
 }
 

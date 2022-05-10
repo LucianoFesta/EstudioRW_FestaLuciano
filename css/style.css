@@ -909,7 +909,7 @@ nav {
 
 .carousel-inner .carrousel1, .carousel-inner .carrousel2, .carousel-inner .carrousel3 {
   height: 80vh;
-  background-image: url(../img/carrousel3.jpg);
+  background-image: url(../img/banne1_nuevo.jpg);
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -918,11 +918,11 @@ nav {
 }
 
 .carousel-inner .carrousel2 {
-  background-image: url(../img/carrousel2.jpg);
+  background-image: url(../img/banner2_nuevo.jpg);
 }
 
 .carousel-inner .carrousel3 {
-  background-image: url(../img/carrousel1.jpg);
+  background-image: url(../img/banner3_nuevo.jpg);
 }
 
 /* BOTON FLOTANTE */
